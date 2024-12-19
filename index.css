@@ -1,0 +1,684 @@
+body {
+	background: black;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-top: -100px;  
+}
+
+header {
+	background: #BF0A30 ;
+	position: relative;
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+#wheel {
+	margin-top: 30px;
+	width: 450px;
+	margin-left: 20px;
+
+}
+
+
+#board {
+display: inline-block;
+width: 800px;
+margin-left: 850px;
+
+}
+
+
+.b {
+	color: whitesmoke;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+
+#colorchange {
+	font-size: 50px;
+	font-weight: 300;
+	margin-left: -400px;
+	margin-top: -50px;
+	margin-bottom: -10px;
+	animation: color-change 3s infinite ;
+
+}
+
+@keyframes color-change {
+  0% { color: whitesmoke; }
+  50% { color: #ffc60a; }
+  100% { color: whitesmoke; }
+}
+
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 10px;
+	padding: 10px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 60px;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color:#ffc60a;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+.sub-menu-wrap {
+				position: absolute;
+				top: 100%;
+				right: 10%;
+				width: 320px;
+}
+
+
+#p {
+	color: whitesmoke;
+	font-size: 60px;
+	text-align: left;
+}
+
+
+#about {
+	font-size: 50px;
+	font-weight: 300;
+	color: whitesmoke;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: -280px;
+}
+
+.box {
+	width: 400px;
+	height: 500px;
+margin-left: 20px;
+margin-top: -50px;
+	color: whitesmoke;
+font-size: 30px;
+line-height: 35px;
+}
+
+#alphabet {
+	margin-top: 59px;
+	width: 400px;
+	margin-left: 600px;
+	display: inline-block;
+}
+
+
+#available {
+	font-size: 50px;
+	font-weight: 300;
+	color: whitesmoke;
+	text-align: left;
+	margin-left: 1200px;
+	margin-top: -585px;
+}
+
+.box2 {
+	width: 400px;
+	height: 500px;
+margin-left: 1200px;
+margin-top: -50px;
+	color: whitesmoke;
+font-size: 30px;
+line-height: 35px;
+}
+
+#aa {
+	display: block;
+	width: 100px;
+	height: 162px;
+	margin-top: -160px;
+	margin-left: 140px;
+
+
+}
+
+#aa:hover {
+	content: url(images/ar.png);
+}
+
+#reda {
+	width: 100px;
+	height: 162px;
+}
+
+
+#rr {
+	display: block;
+	width: 100px;
+	height: 160px;
+	margin-top: -160px;
+	margin-left: 260px;
+}
+
+#rr:hover {
+	content: url(images/rrr.png);
+}
+
+#redr {
+	width: 100px;
+	height: 162px;
+}
+
+
+#dd {
+	display: block;
+	width: 100px;
+	height: 160px;
+	margin-top: -160px;
+	margin-left: 380px;
+}
+
+#dd:hover {
+	content: url(images/dr.png);
+}
+
+#redd {
+	width: 100px;
+	height: 162px;
+}
+
+
+.contc {
+	position: relative;
+	width: 100px;
+	height: 160px;
+	margin-top: 50px;
+ margin-left: 20px;
+}
+
+#oo {
+	display: block;
+	width: 100px;
+	height: 160px;
+	margin-top: -160px;
+	margin-left: 500px;
+
+}
+
+#oo:hover {
+	content: url(images/or.png);
+}
+
+#redd {
+	width: 100px;
+	height: 162px;
+}
+
+
+.contc img {
+
+	position: absolute;
+	width: 100px;
+	height: 160px;
+}
+
+.contc #img2:hover {
+		height: 100px;
+		opacity: 0;
+		cursor: pointer;
+}
+
+
+
+#d  {
+		   width: 100px;
+		   margin-left: 360px;
+		   margin-top: 0px;
+		   				}	
+
+#o  {
+		   width: 100px;
+		   margin-left: 480px;
+		   margin-top: 0px;
+		   				}		   				
+
+
+#purpose {
+	color: whitesmoke;
+	font-size: 50px;
+	font-weight: 300px;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+
+.box3 {
+	width: 400px;
+	height: 500px;
+margin-left: 20px;
+margin-top: -50px;
+	color: whitesmoke;
+font-size: 30px;
+line-height: 35px;
+}
+
+
+#insp{
+	color: whitesmoke;
+	font-size: 30px;
+	font-weight: 300px;
+	margin-top: 3px;
+}
+
+
+.box3 {
+	width: 400px;
+	height: 500px;
+margin-left: 20px;
+margin-top: -50px;
+	color: whitesmoke;
+font-size: 30px;
+line-height: 35px;
+}
+
+
+.n { width: 100%;
+            margin: 0 auto;
+            text-align: center;
+     color: #BF0A30;
+     font-family: "Cardo", serif;
+     font-style: normal;
+     display: flex;
+     justify-content: center;
+ }
+
+.cardo {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 170px;
+  text-align: center;
+  overflow: scroll;
+}
+
+.cardo::-webkit-scrollbar {
+	display: none;
+}
+
+#n0 {
+     font-size: 430px; 
+     font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 1s;
+     color: #BF0A30;
+     margin-top: 140px;
+
+}
+
+
+#na {
+	text-align: center;
+     font-size: 400px;
+     font-weight: 600;
+     line-height: 0.2;
+     margin-top: 2.8 px;
+     margin-right: 1.0px;
+     animation: fade-in 1s;
+     color: #BF0A30;
+                    }
+
+#nt {
+       font-size: 370px;
+  	 font-weight: 600;
+     line-height: 0.2;
+      margin-left: 2.0px;
+      animation: fade-in 1.5s;
+      color: #BF0A30;
+      text-align: center;
+     				}
+
+#nx {
+  	 font-size: 330px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 2s;
+     color: #BF0A30;
+     text-align: center;
+     				}
+
+#n1 {
+  	 font-size: 300px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 2s;
+     color: #BF0A30;
+     text-align: center;
+     				}
+
+#n2 {
+  	 font-size: 270px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 2s;
+     color: #BF0A30;
+     				}
+
+ #n3 {
+  	 font-size: 240px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 3s;
+     color: #BF0A30;
+       				}
+
+  #n4 {
+  	 font-size: 210px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 3s;
+     color: #BF0A30;
+     				}
+
+  #n5 {
+  	 font-size: 180px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 3s;
+     color: #BF0A30;
+     				}
+
+   #n6 {
+  	 font-size: 150px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 3s;
+     color: #BF0A30;
+				}
+
+  #n7 {
+  	 font-size: 120px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 4s;
+     color: #BF0A30;
+     				}
+
+  #n8 {
+  	 font-size: 90px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 4s;
+     color: #BF0A30;
+     				}
+
+ 
+  #n9 {
+  	 font-size: 60px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 5s;
+     color: #BF0A30;
+     				}
+
+
+  #n10 {
+  	 font-size: 30px;
+  	 font-weight: 600;
+     font-style: normal;
+     text-align: center;
+     line-height: 0.2;
+     animation: fade-in 5s;
+     color: #BF0A30;
+     				}    
+
+ #n11 {
+  	 font-size: 30px;
+     line-height: 0.2;
+     animation: fade-in 6s;
+     color: #BF0A30;
+     				}  
+
+
+  #n12 {
+  	 font-size: 60px;
+     font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 6s;
+     color: #BF0A30;
+     				}
+  
+   #n13 {
+  	 font-size: 90px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 7s;
+     color: #BF0A30;
+     				}  
+
+  #n14 {
+  	 font-size: 120px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 7s;
+     color: #BF0A30;
+     				}
+
+   #n15 {
+  	 font-size: 150px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 7s;
+     color: #BF0A30;
+     				}
+
+   #n16{
+  	 font-size: 180px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 7s;
+     color: #BF0A30;
+     				}   
+     				
+ #n17 {
+  	 font-size: 210px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 8s;
+     color: #BF0A30;
+     				}
+
+
+
+ #n18 {
+  	 font-size: 240px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 8s;
+     color: #BF0A30;
+     				}
+
+
+#n19 {
+  	 font-size: 270px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 8s;
+     color: #BF0A30;
+     				}    
+
+ #n20 {
+  	 font-size: 300px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 8s;
+     color: #BF0A30;
+                      }
+
+#n21 {
+  	 font-size: 330px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 9s;
+     color: #BF0A30;
+     				}	
+
+ #n22 {
+  	 font-size: 370px;
+  	 font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 9s;
+     color: #BF0A30;
+     				}	
+
+
+#n23 {
+     font-size: 400px;
+     font-weight: 600;
+     line-height: 0.2;
+     animation: fade-in 10s;
+     color: #BF0A30;
+                    }
+
+#nb {
+     font-size: 430px; 
+     font-weight: 600;
+     line-height: 0.2;
+     margin-top: 2.8 px;
+     animation: fade-in 10s;
+     color: #BF0A30;
+     margin-bottom: 140px;
+                    }		
+
+#one {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#two {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+#three {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#four {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#five {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#six{
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#seven {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#eight {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#nine {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+#ten {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 450px;
+}
+
+
+
+
+#reg { color: #BF0A30;
+     font-family: "Cardo", serif;
+     font-style: normal;
+     text-align: center;
+     font-size: 400px;
+     font-weight: 200;  
+   	 margin-bottom: -300px;
+   	 margin-top: -250px;
+						}	
+
+
+#bold {
+	 color: #BF0A30;
+     font-family: "Cardo", serif;
+     font-style: normal;
+     text-align: center;
+     font-size: 400px;
+     font-weight: 900; 
+     margin-top: 100px;
+						}
+
+#italic {
+     color: #BF0A30;
+     font-family: "Cardo", serif;
+     font-style: italic;
+     text-align: center;
+     font-size: 400px;
+     font-weight: 1000;  
+     margin-top: -150px;
+                            }
+
+
+
